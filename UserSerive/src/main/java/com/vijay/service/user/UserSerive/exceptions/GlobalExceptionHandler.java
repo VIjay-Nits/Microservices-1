@@ -1,9 +1,9 @@
-package com.vijay.service.user.exceptions;
+package com.vijay.service.user.UserSerive.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import com.vijay.service.user.payload.APIResponse;
+import com.vijay.service.user.UserSerive.payload.APIResponse;
 
 public class GlobalExceptionHandler {
 

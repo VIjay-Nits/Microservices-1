@@ -1,4 +1,4 @@
-package com.vijay.service.user.payload;
+package com.vijay.service.user.UserSerive.payload;
 
 import org.springframework.http.HttpStatus;
 

@@ -1,4 +1,4 @@
-package com.vijay.service.user.services.impl;
+package com.vijay.service.user.UserSerive.services.impl;
 
 import java.util.List;
 import java.util.UUID;
@@ -6,10 +6,10 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.vijay.service.user.entities.User;
-import com.vijay.service.user.exceptions.ResultNotFoundException;
-import com.vijay.service.user.repositories.UserRespositry;
-import com.vijay.service.user.services.UserService;
+import com.vijay.service.user.UserSerive.repositories.UserRespositry;
+import com.vijay.service.user.UserSerive.services.UserService;
+import com.vijay.service.user.UserSerive.exceptions.ResultNotFoundException;
+import com.vijay.service.user.UserSerive.entities.User;
 
 @Service
 public class UserServiceImpl implements UserService{

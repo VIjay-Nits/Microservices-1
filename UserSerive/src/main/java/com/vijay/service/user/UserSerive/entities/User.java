@@ -1,4 +1,4 @@
-package com.vijay.service.user.entities;
+package com.vijay.service.user.UserSerive.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
